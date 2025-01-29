@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AWeb</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="header">
+        <h2><div class="logo">LOGO</div></h2>
+        <nav class="navigation">
+            <a href="#">Home</a>
+            <a href="#">Services</a>
+            <a href="#">Contact</a>
+            <a href="#">About</a>
+            <button class="btn_login">Login</button>
+        </nav>
+    </div>
+    <div class="wrapper">
+        <div class="form-box">
+            <h2>Login</h2>
+            <form id="loginForm">
+                <div class="icon-close">x</div>
+                <div class="input-box">
+                    <span class="icon">  
+                        <input type="text" id="email" required>
+                        <label>Email</label>
+                    </span>
+                </div>
+
+                <div class="input-box">
+                    <span class="icon">
+                        <input type="password" id="password" required>
+                        <label>Password</label>
+                    </span>
+                </div>
+
+                <div class="remember-forget">
+                    <label >
+                        <div class="check">
+                        <input type="checkbox" id="rememberMe">Remember me
+                    </div>
+                    </label>
+                    <a href="#">Forget password?</a>    
+                </div>
+                <button type="submit" class="submit">Login</button>
+                <div class="login-register">
+                    <p>Don't have an account?<a href="signup.html" class="register-link">Register</a></p>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
